@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const app = express()
 const userRouter = require('./routes/user')
-const dbURL = 'mongodb://localhost:27017/carhub'
+const dbURL = 'mongodb+srv://danyal:adminadmin@cluster0.f3ray.mongodb.net/carhub?retryWrites=true&w=majority'
 
 app.use(cors())
 app.use(express.json())
